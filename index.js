@@ -19,17 +19,17 @@ const BotName = 'Lexa';
 const wa = 'https://chat.whatsapp.com/FQNUK5VFD68GZaB0UlXjst';
 const eror = 'Info fitur Error';
 const ow = 'Mrf.zvx';
-const nomorowner = '082223014661';
-const ovo = '082223014661';
-const pulsa = '082223014661';
-const dana = '082223014661';
-const instagram = 'http://www.instagram.com/mrf.zvx';
+const nomorowner = '081392365930';
+const ovo = '-';
+const pulsa = '081392365930';
+const dana = '-';
+const instagram = 'http://www.instagram.com/story.anime45';
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
   + 'VERSION:3.0\n'
-  + 'FN:Mrf.zvx\n' // Nama kamu
-  + 'ORG:Lexa;\n' // Nama bot
-  + 'TEL;type=CELL;type=VOICE;waid=6282223014661:+62 822-2301-4661\n' //Nomor whatsapp kamu
+  + 'FN:RANS\n' // Nama kamu
+  + 'ORG:RANS BOT;\n' // Nama bot
+  + 'TEL;type=CELL;type=VOICE;waid=6281392365930:+62 813-9236-5930\n' //Nomor whatsapp kamu
   + 'END:VCARD'
 //
 const
@@ -468,11 +468,12 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 ╠≽️ *Asal Kota*
 ╠≽️ *Gender*
 ╠════════════════════
-║──────── *Lexa* ──────── 
+║──────── *Rans* ──────── 
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
-║──────── *Lexa* ────────
+║──────── *Rans* ────────
 ╠════════════════════
+║ *R A N S  B O T*
 ╠════════════════════` , MessageType.text);
   }
 
@@ -622,7 +623,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 
   //Text thunder
   if (text.includes('.Thunder')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .thunder Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .thunder Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.thunder')) {
     const teks = text.replace(/.thunder /, "")
@@ -639,7 +640,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Sand1')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand1 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand1 Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.sand1')) {
     const teks = text.replace(/.sand1 /, "")
@@ -656,7 +657,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Neon3d')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon3d Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon3d RANS', MessageType.text, { quoted: m });
   }
   if (text.includes('.neon3d')) {
     const teks = text.replace(/.neon3d /, "")
@@ -673,7 +674,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Blackpink')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Blackpink Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Blackpink Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.blackpink')) {
     const teks = text.replace(/.blackpink /, "")
@@ -691,7 +692,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 
 
   if (text.includes('.Cloud')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .cloud Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .cloud Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.cloud')) {
     const teks = text.replace(/.cloud /, "")
@@ -708,7 +709,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Sky')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sky Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sky Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.sky')) {
     const teks = text.replace(/.sky /, "")
@@ -725,7 +726,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Sand2')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand2 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand2 Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.sand2')) {
     const teks = text.replace(/.sand2 /, "")
@@ -742,7 +743,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Sand3')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand3 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand3 Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.sand3')) {
     const teks = text.replace(/.sand3 /, "")
@@ -759,7 +760,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Sand4')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand4 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand4 Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.sand4')) {
     const teks = text.replace(/.sand4 /, "")
@@ -776,7 +777,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Balon')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .balon Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .balon Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.balon')) {
     const teks = text.replace(/.balon /, "")
@@ -793,7 +794,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Metal')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .metal Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .metal Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.metal')) {
     const teks = text.replace(/.metal /, "")
@@ -810,7 +811,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Old')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .old Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .old Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.old')) {
     const teks = text.replace(/.old /, "")
@@ -827,7 +828,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Holo')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .holo Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .holo Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.holo')) {
     const teks = text.replace(/.holo /, "")
@@ -846,7 +847,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 
 
   if (text.includes('.Coding')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .coding Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .coding Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.coding')) {
     const teks = text.replace(/.coding /, "")
@@ -894,7 +895,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 
 
   if (text.includes('.Neon4')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon4 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon4 Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.neon4')) {
     const teks = text.replace(/.neon4 /, "")
@@ -911,7 +912,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
   }
 
   if (text.includes('.Neon5')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon5 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon5 Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.neon5')) {
     const teks = text.replace(/.neon5 /, "")
@@ -1091,7 +1092,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Rate')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .rate seberapa ganteng lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .rate seberapa ganteng Rans', MessageType.text, { quoted: m });
 
   }
   if (text.includes('.rate')) {
@@ -1202,7 +1203,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Paper1')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .paper1 Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .paper1 Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.paper1')) {
     const teks = text.replace(/.paper1 /, "")
@@ -1219,7 +1220,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Block')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .block Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .block Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.block')) {
     const teks = text.replace(/.block /, "")
@@ -1236,7 +1237,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Heart')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .heart Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .heart Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.heart')) {
     const teks = text.replace(/.heart /, "")
@@ -1253,7 +1254,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Grass')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .grass Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .grass Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.grass')) {
     const teks = text.replace(/.grass /, "")
@@ -1270,7 +1271,7 @@ Zulu = zu` , MessageType.text, { quoted: m });
   }
 
   if (text.includes('.Ocean')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .ocean Lexa_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .ocean Rans', MessageType.text, { quoted: m });
   }
   if (text.includes('.ocean')) {
     const teks = text.replace(/.ocean /, "")
@@ -2599,7 +2600,7 @@ _Ex artinya contoh_͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏�
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ RANS BOT ✪────
 ╚════════════════════`,
       contextInfo: { mentionedJid: [nomor] }
     }
@@ -2636,7 +2637,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ RANS BOT ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2665,7 +2666,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ RANS BOT ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2690,7 +2691,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ RANS BOT ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2729,7 +2730,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ RANS BOT ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2742,13 +2743,13 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║───────〘  *Text* 〙──────
 ╠════════════════════
 ╠≽ *.Kata (quotes/author)*
-╠ _Ex = .Kata Aku cinta dia/Lexa_ 
+╠ _Ex = .Kata Aku cinta dia/Rans_ 
 ╠≽ *.Logopornhub (teks1/teks2)*
-╠ _Ex : .Logopornhub Lexa/nime_
+╠ _Ex : .Logopornhub Rans/nime_
 ╠≽ *.Lion (teks1/teks2)*
-╠ _Ex : .Lion Lexa/nime_
+╠ _Ex : .Lion Rans/nime_
 ╠≽ *.Ninja (teks1/teks2)*
-╠ _Ex : .Ninja Lexa/nime_
+╠ _Ex : .Ninja Rans/nime_
 ╠≽ *.Joker (teks1/teks2)*
 ╠ _Ex : .Joker Lexa/nime_
 ╠≽ *.Glitch (teks1/teks2)*
@@ -2758,49 +2759,49 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ╠≽ *.Snow (teks)*
 ╠ _Ex : .Snow Lexa_
 ╠≽ *.Neon1 (teks)*
-╠ _Ex : .Neon1 Lexa_
+╠ _Ex : .Neon1 Rans_
 ╠≽ *.Neon2 (teks)*
-╠ _Ex : .Neon2 Lexa_
+╠ _Ex : .Neon2 Rans_
 ╠≽ *.Neon3d (teks)*
-╠ _Ex : .Neon3d Lexa_
+╠ _Ex : .Neon3d Rans_
 ╠≽ *.Neon4 (teks)*
-╠ _Ex : .neon4 Lexa_
+╠ _Ex : .neon4 Rans_
 ╠≽ *.Neon5 (teks)*
-╠ _Ex : .neon5 Lexa_
+╠ _Ex : .neon5 Rans_
 ╠≽ *.Snow (teks)*
-╠ _Ex : .Snow Lexa_
+╠ _Ex : .Snow Rans_
 ╠≽ *.Coding (teks)*
-╠ _Ex : .Coding Lexa_
+╠ _Ex : .Coding Rans_
 ╠≽ *.Thunder (teks)*
-╠ _Ex : .Thunder Lexa_
+╠ _Ex : .Thunder Rans_
 ╠≽ *.Holo (teks)*
-╠ _Ex : .Holo Lexa_
+╠ _Ex : .Holo Rans_
 ╠≽ *.Blood (teks)*
-╠ _Ex : .Blood Lexa_
+╠ _Ex : .Blood Rans_
 ╠≽ *.Water (teks)*
-╠ _Ex : .Water Lexa_
+╠ _Ex : .Water Rans_
 ╠≽ *.Old (teks)*
-╠ _Ex : .Old Lexa_
+╠ _Ex : .Old Rans_
 ╠≽ *.Balon (teks)*
-╠ _Ex : .Balon Lexa_
+╠ _Ex : .Balon Rans_
 ╠≽ *.Metal (teks)*
-╠ _Ex : .Metal Lexa_
+╠ _Ex : .Metal Rans_
 ╠≽ *.Sand1 (teks)*
-╠ _Ex : .Sand1 Lexa_
+╠ _Ex : .Sand1 Rans_
 ╠≽ *.Sand2 (teks)*
-╠ _Ex : .Sand2 Lexa_
+╠ _Ex : .Sand2 Rans_
 ╠≽ *.Sand3 (teks)*
-╠ _Ex : .Sand3 Lexa_
+╠ _Ex : .Sand3 Rans_
 ╠≽ *.Sand4 (teks)*
-╠ _Ex : .Sand4 Lexa_
+╠ _Ex : .Sand4 Rans_
 ╠≽ *.Sky (teks)*
-╠ _Ex : .Sky Lexa_
+╠ _Ex : .Sky Rans_
 ╠≽ *.Cloud (teks)*
-╠ _Ex : .Cloud Lexa_
+╠ _Ex : .Cloud Rans_
 ╠≽ *.Blackpink (teks)*
-╠ _Ex : .Blackpink Lexa_
+╠ _Ex : .Blackpink Rans_
 ╠≽ *.Fontgen (teks)*
-╠ _Ex : .Fontgen Lexa_
+╠ _Ex : .Fontgen Rans_
 ╠════════════════════
 ║──────── *${BotName}* ──────── 
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
@@ -2808,7 +2809,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ RANS BOT ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2821,51 +2822,51 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║───────〘  *Text* 〙──────
 ╠════════════════════
 ╠≽ *.Bit8 (text/text)*
-╠ _Ex = .Bit8 Lexa/nime_ 
+╠ _Ex = .Bit8 Rans/nime_ 
 ╠≽ *.Pubg (teks1/teks2)*
-╠ _Ex : .Pubg Lexa/nime_
+╠ _Ex : .Pubg Rans/nime_
 ╠≽ *.Batllef (teks1/teks2)*
-╠ _Ex : .Battlef Lexa/nime_
+╠ _Ex : .Battlef Rans/nime_
 ╠≽ *.Shadow (teks)*
-╠ _Ex : .Shadow Lexa_
+╠ _Ex : .Shadow Rans_
 ╠≽ *.Paper1 (teks)*
-╠ _Ex : .Paper Lexa_
+╠ _Ex : .Paper Rans_
 ╠≽ *.Paper2 (teks)*
-╠ _Ex : .Paper Lexa_
+╠ _Ex : .Paper Rans_
 ╠≽ *.Coffee (teks)*
-╠ _Ex : .coffee Lexa_
+╠ _Ex : .coffee Rans_
 ╠≽ *.Block (teks)*
-╠ _Ex : .Block Lexa_
+╠ _Ex : .Block Rans_
 ╠≽ *.Heart (teks)*
-╠ _Ex : .Heart Lexa_
+╠ _Ex : .Heart Rans_
 ╠≽ *.Grass (teks)*
-╠ _Ex : .Grass Lexa_
+╠ _Ex : .Grass Rans_
 ╠≽ *.Ocean (teks)*
-╠ _Ex : .Ocean Lexa_
+╠ _Ex : .Ocean Rans_
 ╠≽ *.Board (teks)*
-╠ _Ex : .Board Lexa_
+╠ _Ex : .Board Rans_
 ╠≽ *.Mwolf (teks)*
-╠ _Ex : .Mwolf Lexa_
+╠ _Ex : .Mwolf Rans_
 ╠≽ *.Mglow (teks)*
-╠ _Ex : .Mglow Lexa_
+╠ _Ex : .Mglow Rans_
 ╠≽ *.Hpotter (teks)*
-╠ _Ex : .Hpotter Lexa_
+╠ _Ex : .Hpotter Rans_
 ╠≽ *.Cfire (teks)*
-╠ _Ex : .Cfire Lexa_
+╠ _Ex : .Cfire Rans_
 ╠≽ *.Wface1 (teks)*
-╠ _Ex : .Wface1 Lexa_
+╠ _Ex : .Wface1 Rans_
 ╠≽ *.Wface2 (teks)*
-╠ _Ex : .Wface2 Lexa_
+╠ _Ex : .Wface2 Rans_
 ╠≽ *.Battlef (teks)*
-╠ _Ex : .Battlef Lexa_
+╠ _Ex : .Battlef Rans_
 ╠≽ *.Lol (teks)*
-╠ _Ex : .Lol Lexa_
+╠ _Ex : .Lol Rans_
 ╠≽ *.Csgo (teks)*
-╠ _Ex : .Csgo Lexa_
+╠ _Ex : .Csgo Rans_
 ╠≽ *.Tahta (teks)*
-╠ _Ex : .Tahta Lexa_
+╠ _Ex : .Tahta Rans_
 ╠≽ *.Owatch (teks)*
-╠ _Ex : .Owatch Lexa_
+╠ _Ex : .Owatch Rans_
 ╠════════════════════
 ║──────── *${BotName}* ──────── 
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
@@ -2873,7 +2874,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ RANS BOT ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2910,7 +2911,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ RANS BOT ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2929,7 +2930,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ╠≽️ *.Ocr*
 ╠ _Mencopy kalimat di gambar_ 
 ╠≽️ *.Stalk (username ig)*
-╠ _Ex = .Stalk @Lexa_ 
+╠ _Ex = .Stalk @Story.anime45 
 ╠≽️ *.Shortlink (link)*
 ╠ _Pemendek link_ 
 ╠≽️ *.ssweb (link)*
@@ -2941,7 +2942,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ RANS BOT ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -2954,11 +2955,11 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║─────〘  *Primbon* 〙──────
 ╠════════════════════
 ╠≽️ *.Arti (Namamu)*
-╠ _Ex = .Arti Lexa_ 
+╠ _Ex = .Arti Rans_ 
 ╠≽️ *.Couple (Namamu & doi)*
-╠ _Ex = .Couple Lexa & udan_ 
+╠ _Ex = .Couple Rans & Dea_ 
 ╠≽️ *.Getzodiak (Nama & tgl)
-╠ _Ex : .Getzodiak Lexa & 09-09-2002_ 
+╠ _Ex : .Getzodiak Rans & 22-04-2002_ 
 ╠≽️ *.Zodiak (Nama zodiak)*
 ╠ _Ex : .Zodiak libra_ 
 ╠≽️ *.Mimpi (teks)*
@@ -2970,7 +2971,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ RANS BOT ✪────
 ╚════════════════════ `, MessageType.text, { quoted: m });
   }
 
@@ -3025,7 +3026,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ RANS BOT ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
@@ -3055,7 +3056,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ RANS BOT ✪────
 ╚════════════════════ `, MessageType.text, { quoted: m });
   }
 
@@ -3090,7 +3091,7 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ║──────── *${BotName}* ────────
 ╠════════════════════
 ╠════════════════════
-║────✪ 🄼🅁🄵.🅉🅅🅇 ✪────
+║────✪ RANS BOT ✪────
 ╚════════════════════`, MessageType.text, { quoted: m });
   }
 
