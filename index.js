@@ -84,7 +84,7 @@ conn.on('message-status-update', json => {
 })
 setInterval(function () {
   for (i = 0; i < 3; i++) {
-    console.log(`[ ${moment().format("HH:mm:ss")} ] => HI! I'm lexa :)`)
+    console.log(`[ ${moment().format("HH:mm:ss")} ] => jangan lupa donasi :)`)
   }
 }, 15000)
 
