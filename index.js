@@ -64,7 +64,7 @@ conn.on('qr', qr => {
     {
       small: true
     });
-  console.log(`[ ${moment().format("HH:mm:ss")} ] Arelbot Ready scan now!`);
+  console.log(`[ ${moment().format("HH:mm:ss")} ] Instagram:@Story.anime45`);
 });
 
 conn.on('credentials-updated', () => {
